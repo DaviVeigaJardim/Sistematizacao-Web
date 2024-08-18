@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teletrac - Telemetria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo.png"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Teletrac">
+        </div>
+        <h1>TeleTrack</h1>
+        <nav>
+            <ul>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#inscricao">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="produto">
+        <h2>Nosso Produto</h2>
+        <div class="produto-container">
+            <img src="produto2.jpg" alt="Imagem do produto 2" class="produto-img">
+            <img src="produto.jpg" alt="Imagem do produto" class="produto-img">
+        </div>
+        <p>O Teletrac é a solução líder em telemetria para monitoramento e gerenciamento de frotas. Nossa tecnologia avançada oferece rastreamento em tempo real, relatórios detalhados e análises para otimizar o desempenho dos veículos e aumentar a eficiência operacional.</p>
+    </section>
+    
+    <section id="equipe">
+        <h2>Conheça a Nossa Equipe</h2>
+        <div class="membros">
+            <div class="membro">
+                <img src="joao_silva.jpg" alt="Membro da equipe 1">
+                <p><strong>João Silva</strong><br>CEO</p>
+            </div>
+            <div class="membro">
+                <img src="maria.jpg" alt="Membro da equipe 2">
+                <p><strong>Maria Oliveira</strong><br>CTO</p>
+            </div>
+            <div class="membro">
+                <img src="pedro.jpg" alt="Membro da equipe 3">
+                <p><strong>Pedro Santos</strong><br>COO</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="inscricao">
+        <h2>Inscreva-se para mais informações</h2>
+        <form action="enviar_inscricao.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Teletrac. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
