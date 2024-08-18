@@ -1,5 +1,3 @@
-# Sistematizacao-Web
-
 #Teletrac - Homepage
 Bem-vindo ao projeto da homepage da Teletrac, uma empresa especializada em telemetria. Este projeto é uma página web simples que apresenta a empresa, seus produtos, equipe e um formulário de inscrição. A página é estilizada usando HTML e CSS.
 
